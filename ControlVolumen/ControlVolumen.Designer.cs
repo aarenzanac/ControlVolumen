@@ -35,8 +35,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Name = "ControlVolumen";
-            this.Size = new System.Drawing.Size(448, 263);
+            this.Size = new System.Drawing.Size(400, 200);
             this.Layout += new System.Windows.Forms.LayoutEventHandler(this.ControlVolumen_Layout);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ControlVolumen_MouseClick);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ControlVolumen_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ControlVolumen_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ControlVolumen_MouseUp);
             this.ResumeLayout(false);
 
         }
